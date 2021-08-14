@@ -12,6 +12,7 @@
     "request-promise": "^4.2.6"
   },
   "dependencies": {
+    "node-schedule": "^2.0.0",
     "open": "^8.2.1",
     "puppeteer": "^10.2.0",
     "sound-play": "^1.1.0"
