@@ -17,7 +17,7 @@ async function getScrapeItems(JDPage) {
 
 const getFromJd = async () => {
 
-  const browser = await puppeteer.launch({headless: false});
+  const browser = await puppeteer.launch();
   const JDPage = await browser.newPage();
   let times = 0;
   let scrapeItems;
